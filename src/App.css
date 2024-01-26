@@ -1,0 +1,43 @@
+
+.back{
+  background-image: url('C:\Users\pavan\OneDrive\Documents\collage_projects\habits_tracker\public\back.jpg');
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height: 100%;
+  /* min-height: 100vh; */
+  background-size:cover;
+  z-index: -1;
+  filter: blur(2px);
+}
+.body{
+  width: 100vw;
+  height: 100vh;
+  
+  overflow: hidden;
+}
+.App {
+  overflow: hidden;
+  /* width: 100vw;
+  height: 100vh; */
+  /* background-color: green; */
+
+}
+.now{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  /* height: 100%; */
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+}
+.container{
+  width: 80%;
+  height: 80%;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin: auto;
+  
+}
